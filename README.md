@@ -1,6 +1,6 @@
-# Narrating a Knowledge Base 
+# Describing a Knowledge Base 
 
-<b>[Narrating a Knowledge Base](https://arxiv.org/pdf/1809.01797.pdf)</b>
+<b>[Describing a Knowledge Base](https://arxiv.org/pdf/1809.01797.pdf)</b>
 
 Accepted by 11th International Conference on Natural Language Generation (INLG 2018)
 
