@@ -44,13 +44,13 @@ if __name__ == "__main__":
     filename = path + 'test_wiki_A.json'
     write_files(filename, test)
     print('Finished Animal test')
-    # train, valid, test = split(get_file_list_from_dir(path + 'wiki_person.json'))
-    # filename = path + 'train_wiki_P.json'
-    # write_files(filename, train)
-    # print('Finished Person train')
-    # filename = path + 'valid_wiki_P.json'
-    # write_files(filename, valid)
-    # print('Finished Person valid')
-    # filename = path + 'test_wiki_P.json'
-    # write_files(filename, test)
-    # print('Finished Person test')
+    train, valid, test = split(get_file_list_from_dir(path + 'wiki_person.json'))
+    filename = path + 'train_wiki_P.json'
+    write_files(filename, train)
+    print('Finished Person train')
+    filename = path + 'valid_wiki_P.json'
+    write_files(filename, valid)
+    print('Finished Person valid')
+    filename = path + 'test_wiki_P.json'
+    write_files(filename, test)
+    print('Finished Person test')
