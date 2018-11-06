@@ -65,17 +65,21 @@ python main.py --cuda --mode 1
 ## Citation
 
 ```
-@InProceedings{wang1y2018,
+@InProceedings{W18-6502,
   author = 	"Wang, Qingyun
-             and Pan, Xiaoman
-             and Huang, Lifu
-             and Zhang, Boliang
-             and Jiang, Zhiying
-             and Ji, Heng
-             and Knight, Kevin",
+		and Pan, Xiaoman
+		and Huang, Lifu
+		and Zhang, Boliang
+		and Jiang, Zhiying
+		and Ji, Heng
+		and Knight, Kevin",
   title = 	"Describing a Knowledge Base",
-  booktitle = 	"Proceedings of the 11th International Conference on Natural Language Generation ",
-  year = 	"2018"
+  booktitle = 	"Proceedings of the 11th International Conference on Natural Language Generation",
+  year = 	"2018",
+  publisher = 	"Association for Computational Linguistics",
+  pages = 	"10--21",
+  location = 	"Tilburg University, The Netherlands",
+  url = 	"http://aclweb.org/anthology/W18-6502"
 }
 ```
 ## Attention Visualization
