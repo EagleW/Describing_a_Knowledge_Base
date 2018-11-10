@@ -4,7 +4,7 @@
 
 Accepted by 11th International Conference on Natural Language Generation (INLG 2018)
 
-
+ [[Slides]](https://eaglew.github.io/files/Wikipedia.pdf)
 
 Table of Contents
 =================
