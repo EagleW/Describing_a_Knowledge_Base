@@ -31,23 +31,23 @@ Table of Contents
 This dataset gathers unfiltered 428,748 person and 12,236 animal infobox with description based on Wikipedia dump (2018/04/01) and Wikidata (2018/04/12)
 
 ## Quickstart
-Preprocessing:
-Put the [Wikipedia Person and Animal Dataset](https://drive.google.com/open?id=1TzcNdjZ0EsLh_rC1pBC7dU70jINcsVJd) under the Describing a Knowledge Base folder. Unzip it.
+#### Preprocessing:
+Put the [Wikipedia Person and Animal Dataset](https://drive.google.com/open?id=1TzcNdjZ0EsLh_rC1pBC7dU70jINcsVJd) under the `Describing a Knowledge Base` folder. Unzip it.
 
-Randomly split the data into train, dev and test by runing split.py under utils folder.
+Randomly split the data into train, dev and test by runing `split.py` under utils folder.
 
 ```
 python split.py
 ```
 
-Run preprocess.py under the same folder. 
+Run `preprocess.py` under the same folder. 
 
 You can choose person (type 0) or animal (type 1)
 ```
 python preprocess.py --type 0
 ```
 #### Training
-Hyperparameter can be adjust in the Config class of main.py and choose whether person or animal using type.
+Hyperparameter can be adjusted in the Config class of main.py and choose whether person (0) or animal (1) using type.
 ```
 python main.py --cuda --mode 0 --type 0
 ```
