@@ -72,7 +72,7 @@ class DecoderRNN(BaseRNN):
         # mask to -INF before applying softmax
         attn_scores = e_t.view(batch_size, max_enc_len)
         del e_t
-        attn_scores.data.masked_fill_(enc_mask.data.byte(), 0)
+        attn_scores.data.masked_fill_(enc_mask.data.byte(), -float('inf'))
         attn_scores = F.softmax(attn_scores, dim=1)
 
         contexti = attn_scores.unsqueeze(1).bmm(c_contexti).squeeze(1)
