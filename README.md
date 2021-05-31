@@ -1,6 +1,6 @@
 # Describing a Knowledge Base 
 
-<b>[Describing a Knowledge Base](http://aclweb.org/anthology/W18-6502)</b>
+<b>[Describing a Knowledge Base](http://aclanthology.org/W18-6502)</b>
 
 Accepted by 11th International Conference on Natural Language Generation (INLG 2018)
 
@@ -79,7 +79,7 @@ python main.py --cuda --mode 1
   publisher = 	"Association for Computational Linguistics",
   pages = 	"10--21",
   location = 	"Tilburg University, The Netherlands",
-  url = 	"http://aclweb.org/anthology/W18-6502"
+  url = 	"http://aclanthology.org/W18-6502"
 }
 ```
 ## Attention Visualization
